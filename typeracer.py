@@ -91,4 +91,5 @@ class TypeRacer:
         except:
             print('Timed out')
 
-TypeRacer()
+if __name__ == "__main__":
+    TypeRacer()
