@@ -53,7 +53,7 @@ class TypeRacer:
     def play_public(self):
         self.driver.get(r'https://play.typeracer.com')
         time.sleep(1)
-        race = self.driver.find_element_by_partial_link_text('Enter a typing race')
+        race = self.driver.find_element_by_partial_link_text('Enter a Typing Race')
         race.click()
         time.sleep(1)
         self.play()
