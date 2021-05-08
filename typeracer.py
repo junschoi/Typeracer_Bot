@@ -71,7 +71,7 @@ class TypeRacer:
         try:
             self.driver.get(private_url)
             time.sleep(1)
-            race = self.driver.find_element_by_partial_link_text('join race')
+            race = self.driver.find_element_by_partial_link_text('Join race')
             race.click()
             time.sleep(1)
             self.play()
